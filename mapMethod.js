@@ -47,13 +47,3 @@ const conct = people.map((person) => {
   return person.first + " " + person.last + " " + person.age;
 });
 console.log(conct);
-
-const data = Object.values(people);
-// console.log(data);
-
-const percent = data.filter((value) => {
-  const name = people[value];
-  console.log(value);
-  return people.first / 10;
-});
-// console.log(percent);
